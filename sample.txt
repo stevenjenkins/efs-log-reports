@@ -1,0 +1,5 @@
+192.168.1.242 efs-prod.example.org:8080 - [26/Feb/2013:08:38:25 -0500] "HEAD /meta1/proj1/rel1/common/proj1.zip HTTP/1.1" 200 0 "-" "user1 - client Foo"
+192.168.1.242 efs-prod.example.org:8080 - [26/Feb/2013:08:38:25 -0500] "HEAD /meta1/proj2/rel1/common/proj2.config HTTP/1.1" 200 0 "-" "user1 - client Foo"
+192.168.1.242 efs-prod.example.org:8080 - [26/Feb/2013:08:38:25 -0500] "GET /meta1/proj2/rel1/common/proj2.config HTTP/1.1" 200 18293 "-" "user1 - client Foo"
+192.168.1.242 efs-prod.example.org:8080 - [26/Feb/2013:08:53:03 -0500] "HEAD /meta1/proj2/rel1/common/deployconfig.xml HTTP/1.1" 200 0 "-" "user1 - client Foo"
+192.168.1.242 efs-prod.example.org:8080 - [26/Feb/2013:08:53:03 -0500] "GET /meta1/proj2/rel1/common/deployconfig.xml HTTP/1.1" 200 3472 "-" "user1 - client Foo"
